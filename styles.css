@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    height: 100vh;
+    position: relative;
+}
+
+#quote-box {
+    border-radius: 5px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 50%;
+    min-height: 150px;
+    width: 450px;
+    position: absolute;
+    padding: 30px 50px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#new-quote {
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: auto;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 100px;
+}
+
+#text {
+    margin-bottom: 40px;
+}
+
+#author {
+    margin-bottom: 20px;
+    margin-left: auto;
+}
+
+#tweet-quote {
+    background-image: url('./images/twitter.png');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
