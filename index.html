@@ -9,11 +9,23 @@
 </head>
 
 <body>
-    <div id="quote-box">
-        <h2 id="text"></h2>
-        <div id="author"></div>
-        <button id="new-quote">New Quote</button>
-        <a href="https://twitter.com/intent/tweet" target="_blank" id="tweet-quote"></a>
+    <div class="container">
+        <div id="quote-box">
+            <h2 id="text"></h2>
+            <div id="author"></div>
+            <button id="new-quote">New Quote</button>
+            <a href="https://twitter.com/intent/tweet" target="_blank" id="tweet-quote"></a>
+        </div>
+        <form>
+            <div class="input-group">
+                <input id="quote-input" placeholder="Enter quote..." required />
+                <input id="author-input" placeholder="Enter author..." required />
+                <input id="color-input" placeholder="Enter color..." required />
+            </div>
+            <div class="button-group">
+                <button id="submit-btn">Submit</button>
+            </div>
+        </form>
     </div>
 
     <script src="script.js" type="module"></script>
